@@ -1,0 +1,7 @@
+{application, jmespath, [
+    {description,"JMESPath - a query language for JSON"},
+    {vsn,"1.0"},
+    {modules,[]},
+    {registered,[]},
+    {applications,[kernel,stdlib,jsx]}
+]}.
