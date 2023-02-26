@@ -35,6 +35,15 @@ Result:
 
 Learn more at [JMESPath Tutorial](https://jmespath.org/tutorial.html).
 
+## Installation
+
+For rebar3, add the following to your rebar.config:
+```
+{deps, [
+    {jmespath, {git, "https://github.com/thehangedman/jmespath-erlang.git", {branch, "main"}}}
+]}.
+```
+
 ## Usage
 
 ```erlang
